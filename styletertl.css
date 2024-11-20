@@ -1,0 +1,20 @@
+h1,
+h2 {
+    font-family: Bookman old style;
+    color: rgb(0, 82, 4);
+}
+p {
+    font-size: 1.2rem;
+}
+
+    body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color:rgb(142, 201, 159);
+        }
+        img {
+            max-width: 50%;
+            height: auto;
+        }
