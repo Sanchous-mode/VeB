@@ -1,31 +1,138 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт Радмирчика Хамидуллина(241-672)</title>
-    <link rel="stylesheet" href="Laby/normalize.css"/>
-    <link rel="stylesheet" href="styletertl.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <title>BURN SHOP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/jersey-m54" rel="stylesheet">
 </head>
 <body>
-    <h1>Мультсериал "Черепашки ниндзя" 2012-ого</h1>
-    <p>Мультсериал "Черепашки-ниндзя", который вышел в 2012 году, стал одной из самых ярких интерпретаций знаменитой франшизы. Эта версия была создана студией Nickelodeon и сочетает современные анимационные технологии с классическим стилем и духом любимых персонажей. Мультсериал стал успешным благодаря своей динамичной графике, глубоко проработанным персонажам и увлекательным сюжетным линиям. В нем продолжились приключения черепашек, которые борются с различными злодеями, включая старых знакомых, таких как Шреддер и Кранг, а также новых противников.</p>
-    <p>Особенностью 2012 года версии является то, что она удачно смешивает элементы комедии и экшена, что делает ее привлекательной для детей и подростков, а также для взрослых поклонников франшизы. Серии насыщены юмором и остроумными диалогами, что особо выделяет этот проект на фоне более серьезных адаптаций. Персонажи приобретают новые грани, их характеры становятся более многослойными, что помогает создать эмоциональную связь между зрителем и героями.</p>
-    <img src="https://www.karusel-tv.ru/media/suit/in1200x720/media/broadcast_cover/2017/07/1499349723519074_nindzia_2.png">
-    <p>Несмотря на комедийный настрой, мультсериал также затрагивает серьезные темы, такие как дружба, самоотверженность и ответственность. Четыре черепашки — Леонардо, Михаиланджело, Донателло и Рафаэль — олицетворяют различные черты характера и, преодолевая внутренние конфликты, учат зрителей важным жизненным урокам. В каждой серии они сталкиваются с вызовами, которые требуют не только физических сил, но и умения работать в команде. Это добавляет глубину сюжету и позволяет подросткам лучше понимать ценности и взаимопомощь.</p>
-    <p>В 2012 году "Черепашки-ниндзя" стали не только популярным мультсериалом, но и важным культурным феноменом, привлекшим интерес нового поколения к давно любимым персонажам. Успех шоу способствовал созданию множества товаров, включая игрушки, игры и развлекательные мероприятия. Мультсериал продемонстрировал, что классические истории могут быть адаптированы и переработаны, оставаясь актуальными для молодежи, и создал прочный фундамент для дальнейших проектов, поддерживающих интерес к вселенной черепашек-ниндзя на многие годы вперед.</p>
-    <h2>Источники:</h2>
-    <ui>
-        <li><a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Yandex </a></li>
-        <li><a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Google </a></li>
-    </ui>
+    <div class="container">
+        <!-- Красный хедер -->
+        <header class="header">
+            <a href="index.html" class="header-link">
+                <div class="logo-container">
+                    <div class="logo-top animate-burn">BURN</div>
+                    <div class="subtitle">интернет-магазин горячих компьютерных девайсов</div>
+                    <div class="logo-bottom animate-shop">SHOP</div>
+                </div>
+            </a>
+        </header>
+
+        <!-- Навигационное меню -->
+        <nav class="nav-menu">
+            <a href="file:///D:/papkaveb/CURSWORK/registration.html?username=dasd&email=hamidullinrodmirr%40mail.ru&password=dsd&confirm-password=s">Регистрация</a>
+            <a href="#">Корзина</a>
+            <a href="#">Доставка и оплата</a>
+            <a href="#">Девайсы</a>
+            <a href="#">Trade-in</a>
+        </nav>
+
+        <button id="toggleBackground" class="theme-toggle">
+            Сменить 
+            фон
+        </button>
+
+        <!-- Основной контент -->
+        <main class="main-content">
+            <div class="title">
+                Оригинальная техника в 
+                <span class="burn-red">BURN SHOP.</span>
+            </div>
+
+            <!-- Сетка товаров -->
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://c.dns-shop.ru/thumb/st1/fit/500/500/5c05122794e3030e906dda852745f2a2/73ee415e01ce5efaf78d76ce8e7b80b516f0a0f3a3e53bf826b124385fa7f47a.jpg.webp" alt="JBL tune flex">
+                    <h3>JBL tune flex<br>ghost edition</h3>
+                    <p>Беспроводные наушники</p>
+                    <p class="price">От 8 000 ₽</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://c.dns-shop.ru/thumb/st1/fit/500/500/645bf29f375b8f347f32069d5eaf8d97/eb27f50bf1567e44274471170bfdb8a74122289d69264f65435b619422281b8d.jpg.webp" alt="Logitech G203">
+                    <h3>Logitech G203</h3>
+                    <p>Компьютерная мышь</p>
+                    <p class="price">От 2 000 ₽</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://c.dns-shop.ru/thumb/st4/fit/500/500/7f1ab595c4334552a6ecfc562f2cd3ca/d0cc5d89882deaf79263ad2eb6a4abe25742957c942f007c87b7f83baaaeeeaf.jpg.webp" alt="ZET GAMING">
+                    <h3>ZET GAMING Blade<br>PRO Optical</h3>
+                    <p>Механическая клавиатура</p>
+                    <p class="price">От 12 000 ₽</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://c.dns-shop.ru/thumb/st4/fit/500/500/fa3f7fdfe701a7b332b86da15fb66c6e/c08bf4491b080f3b62ab0165f0e992276aa027192a4054c1e172cb1ecac695e0.jpg.webp" alt="Zet gaming">
+                    <h3>Zet gaming<br>respawn</h3>
+                    <p>Проводные наушники</p>
+                    <p class="price">От 1 200 ₽</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://c.dns-shop.ru/thumb/st4/fit/500/500/0fa217513c4f0ce2fa01fbadca5c5ce3/3dfff6d470b5da4a5192ac104a4b0fbf8fdf4205339070eba2c2f02c9a234935.jpg.webp" alt="Razer blackwidow">
+                    <h3>Razer blackwidow<br>v3 pro</h3>
+                    <p>Механическая клавиатура</p>
+                    <p class="price">От 22 000 ₽</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://c.dns-shop.ru/thumb/st1/fit/500/500/eb896b12aa239fecebaffb3d10e3ada6/58cce3b1e453bb70fb297d4e259e2c7f171dfdcaec1eae2325d4b6c6f4faa03f.jpg.webp" alt="HyperX">
+                    <h3>HyperX pulsefire<br>fps pro</h3>
+                    <p>Компьютерная мышь</p>
+                    <p class="price">От 5 000 ₽</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Видео контейнер -->
+        <div class="video-container">
+            <iframe
+                src="https://rutube.ru/play/embed/2df96eda424984745229c54379a948d1" 
+                frameborder="0"
+                allow="clipboard-write; autoplay"
+                webkitAllowFullScreen
+                mozallowfullscreen
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- Футер -->
+        <footer class="footer">
+            <div class="contacts">
+                <span>Наши контакты:</span>
+                <div class="contact-info">
+                    <div class="phone">
+
+                        +7(817)480-09-07
+                        <span class="time">10:00-00:00</span>
+                    </div>
+                    <div class="telegram">
+                        @BURN_SHOP_MOSCOW
+                        <span class="channel">telegram chanel</span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">© 2025 burn-shop.ru</div>
+        </footer>
+    </div>
 </body>
+
+<script>
+    const toggleButton = document.getElementById('toggleBackground');
+    const body = document.body;
+    
+    toggleButton.addEventListener('click', function() {
+        body.classList.toggle('static-background');
+        
+        if (body.classList.contains('static-background')) {
+            toggleButton.textContent = 'Вернуть анимацию';
+        } else {
+            toggleButton.textContent = 'Сменить фон';
+        }
+    });
+</script>
+
 </html>
